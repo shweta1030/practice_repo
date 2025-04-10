@@ -1,0 +1,1 @@
+This project we are creating a quote generator using javascript, this is beginner level project; 
