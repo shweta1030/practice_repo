@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('/images/img-1.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.heading{
+    background-color: black;
+    color:white;
+    border: 1px solid white;
+    font-size: 1.4rem;
+    font-family: "Roboto", sans-serif;
+    padding-inline:10px;
+    border-radius:2px;
+    margin-top:10%; 
+
+    
+    
+    
+}
+.box{
+    background-color: white;
+    padding: 25px;
+    border-radius:5px;
+    margin-top: 10px;
+}
+.quote{
+    font-size:1.5rem;
+}
+.quotor{
+    font-size:1.6rem;
+    color: red;
+    text-transform: uppercase;
+    margin-top:20px;
+}
+#btn{
+    background-color: black;
+    color:white;
+    border-radius:5px;
+    border: 1px solid black;
+    padding:10px;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+#btn:hover{
+    background-color: lightblue;
+    color: black;
+}
